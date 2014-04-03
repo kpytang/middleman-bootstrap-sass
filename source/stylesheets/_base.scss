@@ -1,0 +1,18 @@
+.navbar-inverse .navbar-nav {
+  .active > a {
+    color: $linkColor;
+    background-color: transparent;
+  }
+  .inactive a {
+      cursor: default;
+      &:hover {
+        color: $inverseNavColor;
+      }
+  }
+}
+
+footer {
+  padding-top: 15px;
+  padding-bottom: 5px;
+  color: $inverseNavColor;
+}
