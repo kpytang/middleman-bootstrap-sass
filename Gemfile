@@ -15,4 +15,4 @@ platforms :mri_18 do
   gem "ruby18_source_location"
 end
 
-gem 'bootstrap-sass', '~> 3.1.1'
+gem 'bootstrap-sass', '~> 3.1.1', require: false
