@@ -45,6 +45,12 @@
 #   end
 # end
 
+helpers do
+  def is_page_active(page)
+    current_page.url == page ? "active" : nil
+  end
+end
+
 set :css_dir, 'stylesheets'
 
 set :js_dir, 'javascripts'
